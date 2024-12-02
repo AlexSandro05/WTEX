@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основи мови SQL</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Основи мови запитів SQL</h1>
+        <p>Призначення, основні поняття та терміни мови SQL</p>
+    </header>
+
+    <!-- Content -->
+    <main>
+        <section>
+            <h2>Призначення SQL</h2>
+            <p>SQL (Structured Query Language) — це мова, яка використовується для роботи з базами даних. Вона дозволяє створювати, змінювати, видаляти та отримувати дані.</p>
+        </section>
+        <section>
+            <h2>Основні поняття та терміни</h2>
+            <ul>
+                <li><strong>Таблиця</strong>: структура для зберігання даних у рядках та стовпцях.</li>
+                <li><strong>Запит</strong>: команда для взаємодії з базою даних.</li>
+                <li><strong>Стовпець</strong>: атрибут таблиці, який визначає тип даних.</li>
+                <li><strong>Рядок</strong>: одиниця даних, що містить значення для кожного стовпця.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Найпростіші запити SQL</h2>
+            <p>Ось приклад простого запиту для отримання даних:</p>
+            <pre>
+SELECT * FROM Таблиця;
+            </pre>
+        </section>
+        <section>
+            <h2>Запити з умовою</h2>
+            <p>Для відбору даних з умовою використовується ключове слово WHERE:</p>
+            <pre>
+SELECT * FROM Таблиця WHERE Стовпець = 'Значення';
+            </pre>
+        </section>
+        <section>
+            <h2>Групування запитів</h2>
+            <p>Групування даних дозволяє об'єднувати рядки на основі значень стовпців за допомогою GROUP BY:</p>
+            <pre>
+SELECT Стовпець, COUNT(*) FROM Таблиця GROUP BY Стовпець;
+            </pre>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SQL Навчання</p>
+    </footer>
+</body>
+</html>
