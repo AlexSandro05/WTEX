@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+header img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.info-block {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.5);
+}
+
+.zagadka-block, .rebys-block, .task-block, .question-block {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.zagadka-block {
+    background-color: lightyellow;
+    transform: rotate(20deg);
+}
+
+.rebys-block {
+    background-color: pink;
+    transform: rotate(-20deg);
+}
+
+.task-block {
+    background-color: lightgreen;
+    transform: skewX(20deg);
+}
+
+.question-block {
+    background-color: lightcoral;
+    transform: rotate(-20deg);
+}
+
+.rotate-answer {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px double green;
+    text-align: center;
+}
+
+th {
+    background-color: lightblue;
+}
+
+td {
+    background-color: lightyellow;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
