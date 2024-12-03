@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header img {
+    width: 400px; /* Збільшення розміру логотипу */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: yellow; /* Текст тепер жовтого кольору */
+    font-size: 16px; /* Розмір тексту для покращення видимості */
+    margin: 5px 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+p {
+    color: green;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+}
